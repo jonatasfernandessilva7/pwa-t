@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#principal {
+    text-align: center;
+}
+
+#nomeUsuario {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#mostrarMsg {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+.mensagem {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+#inputMsg {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+#buttons button {
+    padding: 10px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#buttons #ouvirMsg {
+    background-color: #007bff;
+    color: #fff;
+}
+
+#buttons #falarMsg {
+    background-color: #28a745;
+    color: #fff;
+}
+
+#buttons button:hover {
+    opacity: 0.8;
+}

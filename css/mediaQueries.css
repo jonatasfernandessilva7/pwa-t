@@ -1,0 +1,51 @@
+/* Para dispositivos móveis (tela de até 600px de largura) */
+@media only screen and (max-width: 600px) {
+    p, li {
+        font-size: 1em;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .parallax {
+        font-size: 1.5em;
+        min-height: 300px;
+        padding: 20px;
+    }
+}
+
+/* Para tablets (tela de até 768px de largura) */
+@media only screen and (max-width: 768px) {
+    p, li {
+        font-size: 1.05em;
+    }
+
+    button {
+        font-size: 15px;
+        padding: 12px 25px;
+    }
+
+    .parallax {
+        font-size: 1.8em;
+        min-height: 400px;
+    }
+}
+
+/* Para desktops pequenos (tela de até 1024px de largura) */
+@media only screen and (max-width: 1024px) {
+    p, li {
+        font-size: 1.1em;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 12px 30px;
+    }
+
+    .parallax {
+        font-size: 2em;
+        min-height: 450px;
+    }
+}
