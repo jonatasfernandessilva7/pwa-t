@@ -2,11 +2,10 @@ var staticCacheName = "pwa_dice";
 
 const filesToCache = [
 	'./index.html',
+	'./css/main.css',
+	'./css/mediaQueries.css',
 	'./css/chat.css',
-	'./css/index.css',
-	'./css/mediaQueries.css',	
-	'./js/chat.js',
-	'./js/register.js',
+	'./js/script.js',
 	'./html/chat.html',
 ];
  
