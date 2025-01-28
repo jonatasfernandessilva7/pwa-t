@@ -1,7 +1,6 @@
-# Projeto Curriculo PWA
+# Projeto PWA
 
-<p>Meu projeto consiste em uma página principal sobre mim, com um menu que leva a outras áreas para 
-conhecer mais de mim e sobre minhas habilidades, experiências etc.
+<p>Meu projeto consiste em um chat monólogo.
 </p>
 
 
